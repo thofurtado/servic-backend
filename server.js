@@ -22,5 +22,5 @@ app.use('/api', require('./src/routes') );
 
 
 //Porta de conexão da api
-var porta = process.env.PORT || 8080;
+var porta = process.env.PORT || 3000;
 app.listen(porta);
