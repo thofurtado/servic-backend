@@ -1,0 +1,6 @@
+tabelas(migrates e models)
+produto, cliente,vendas
+
+php artisan make:model Produto -m
+php artisan make:model Cliente -m
+php artisan make:model Venda -m

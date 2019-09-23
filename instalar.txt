@@ -1,0 +1,8 @@
+npm install express
+npm install -D nodemon
+docker pull mongo
+docker run --name mongodb -p 27017:27017 -d mongo
+npm install mongoose
+npm install require-dir
+npm install mongoose-paginate
+npm install cors
